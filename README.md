@@ -4,8 +4,23 @@ A standalone Python library and interactive design tool for generating complex, 
 
 The core philosophy is to create a data-first engine that produces emergent, believable systems. The world features a layered terrain model with bedrock and soil, a dynamic climate model with prevailing winds and rain shadows, and a fully integrated **in-game clock and day/night cycle**. The interactive editor allows for rapid iteration and design, and the final output is a "plug-and-play" package that works out of the box.
 
+## Project Status (Archived / Complete)
+
+This repository is now a **public archive** and development is officially **paused**.
+
+I believe this project was originally started as a modular component for my other Python simulations and games. However, I ended up putting far more time into this than I expected, and less time into the other simulations it was meant to support. In the end, I never actually used it for its original purpose.
+
+This project took a long time, and it was probably the one that caused me the most pain and suffering during development. A lot of that time was spent bug fixing and optimizing, and even now the project remains under-optimized and a little buggy. If I could go back to it, I would probably remove the tectonic plate logic and change some of the generation rules. But all in all, I think it turned out okay.
+
+I do not know how highly usable it really is. I probably would not put it on a CV or anything, but it was definitely a time of my life, and I definitely spent a significant amount of time working on it. Looking back, I would have done some things differently, which is probably a good sign. It means I learned things throughout the development process.
+
+Terrain generation is complicated, and this project helped me understand some of its intricacies more clearly. That will probably be useful for future projects. All in all, it was a fun project, and maybe I will return to something similar in the future.
+
+Unlike some of my other projects, I would mark this one as complete rather than simply archived. It is not very polished, but it works. It is functional, and it can create usable worlds. With some tinkering, I might even be able to port parts of it into something like Unity in the future.
+
 ## Table of Contents
 
+*   [Project Status (Archived / Complete)](#project-status-archived--complete)
 *   [Core Philosophy](#core-philosophy)
     *   [1. Truly Plug-and-Play](#1-truly-plug-and-play)
     *   [2. Scientifically-Grounded Realism](#2-scientifically-grounded-realism)
@@ -134,7 +149,7 @@ Configuration is split into two distinct types, following Rule 1.
 3.  **Running a Baked World:**
     *   Navigate to the output folder (e.g., `baked_worlds/MyWorld_Seed42_Chunked/`).
     *   **On Windows:** Double-click `run.bat`.
-    *   **On macOS/Linux:** Open a terminal and run `./run.sh`.
+    *   **On macOS/Linux:** Open a terminal and run `bash run.sh`.
     *   The script will automatically create a virtual environment, install dependencies, and launch the world viewer.
 
 ## Using the Generator in Your Project
